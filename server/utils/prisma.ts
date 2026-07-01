@@ -1,8 +1,6 @@
 import { PrismaClient } from '@prisma/client'
 
 declare global {
-  // Evita crear muchas conexiones nuevas en desarrollo por el hot reload
-  // eslint-disable-next-line no-var
   var __prisma: PrismaClient | undefined
 }
 

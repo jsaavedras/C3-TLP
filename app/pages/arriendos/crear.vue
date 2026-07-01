@@ -5,5 +5,4 @@
 </template>
 
 <script setup lang="ts">
-// Formulario base para crear arriendos.
 </script>
